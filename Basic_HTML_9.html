@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>Tomatoes</title>
+            <script src="js/basic_javascript_9.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+    </head>
+    <body>
+        
+        <!-- Image Slideshow -->
+        <div class="slideshow-container">
+
+            <!-- Images and text -->
+            <div class="myslides">
+                <div class="numbertext">1 of 3</div>
+                <img src="images/cherry.jpg" style="width:100%">
+                <div class="text">Cherry tomatoes are great for salads and snacking.</div>
+            </div>
+
+            <div class="myslides">
+                <div class="numbertext"> 2 of 3</div>
+                <img src="images/heirloom.jpg" style="width:100%">
+                <div class="text">Heirlooms are great for slicing and making sauces.</div>
+            </div>
+
+            <div class="myslides">
+                <div class="numbertext">3 of 3</div>
+                <img src="images/paste.jpg" style="width:100%">
+                <div class="text">Paste tomatoes are great for making sauces and salsas.</div>
+            </div>
+
+            <!-- Next/Previous buttons -->
+            <a class="prev" onclick="plusslides(-1)">&#10094;</a>
+            <a class="next" onclick="plusslides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- Location styling -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentslide(1)"></span>
+            <span class="dot" onclick="currentslide(2)"></span>
+            <span class="dot" onclick="currentslide(3)"></span>
+        </div>
+
+    </body>
+</html>
