@@ -7,3 +7,13 @@ function count_Function() {
         return Starting_point;
     }
 }
+
+function count_to_ten() {
+    var Digit = "";
+    var X = 1;
+    while (X < 11) {
+        Digit += "<br>" + X;
+        X++;
+    }
+    document.getElementById("counting_to_ten").innerHTML = Digit;
+}
