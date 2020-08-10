@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <title>Forms</title>
+        <script src="js/JavaScript_2.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="css/CSS_1.css">
+    </head> 
+    <body>
+        
+        <div class="container">
+            <form name="lions_form" class="form_style" onsubmit="return validateForm()" method="post">
+                
+                <!-- name section -->
+                <div></div>
+                    <label>First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label>Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                
+                <!-- team section -->
+                
+                    <label for="team">Favorite team</label><br>
+                    <input type="radio" id="lions" name="team" value="Lions">
+                    <label for="lions">Lions</label><br>
+                    <input type="radio" id="bears" name="team" value="Bears">
+                    <label for="bears">Bears</label><br>
+                    <input type="radio" id="packers" name="team" value="Packers">
+                    <label for="packers">Packers</label><br>
+                    <input type="radio" id="vikings" name="team" value="Vikings">
+                    <label for="vikings">Vikings</label><br>                
+
+                <!-- submit section -->
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+</html>
